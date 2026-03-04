@@ -75,6 +75,14 @@ Spring Boot + React 기반 풀스택 쇼핑몰 프로젝트의 백엔드입니�
 
 ---
 
+### 페이지네이션 공통 구조
+
+- PageRequestDTO / PageResponseDTO를 설계, 공통 페이지 응답 구조로 활용
+- 현재 페이지 기준으로 페이지 번호 묶음(1~10, 11~20) 자동 계산
+- 이전/다음 페이지 그룹 존재 여부(hasPrevPageGroup, hasNextPageGroup) 및 이동 페이지 번호 포함
+
+---
+
 ## 주요 기술적 고민
 
 | 항목 | 내용 |
